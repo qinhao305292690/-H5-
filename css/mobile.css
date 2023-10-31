@@ -1,0 +1,286 @@
+*{
+	text-decoration: none;
+}
+a{
+	color:#555;
+}
+.aac{
+	font-size: 1em;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    color: #000;
+}
+header{
+	background-color: #a22136;
+	height: 3.1875rem;
+}
+#logo{
+	height: 2.5rem;
+    padding: 0.5625rem 0.3125rem 0 0.5625rem;
+    display: inline-block;
+    float: left;
+}
+#logo>a>img{
+	vertical-align: middle;
+    width: 4.6875rem;
+}
+.seat{
+	background: url(http://static.wdmcake.cn/public/wap/images/seat.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    cursor: pointer;
+    float: left;
+    height: 1.375rem;
+    line-height: 0.8125rem;
+    margin: 1.375rem 0 0 0.125rem;
+    font-size: 0.7em;
+    color: #fff;
+    padding: 0 0 0 0.9375rem;
+    width: 2.625rem;
+}
+.loginbox{
+	display: inline-block;
+    float: right;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 1.0625rem 1.125rem 0 0;
+}
+.loginbox>a{
+	color: #fff;
+}
+.new{
+	min-height: 18.75rem;
+    background-color: #fff;
+}
+body,.new-main{
+	background: #f0f2f5 none repeat scroll 0 0;
+}
+.immm{
+	overflow: hidden;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.swiper-slide>img{
+	width:100%;
+}
+.swiper-pagination{
+	top:7.8125rem;
+	left:9.375rem;
+	
+}
+.swiper-pagination>span{
+	margin-left:0.3125rem;
+	background:#fc0;
+}
+.service{
+	width: 100%;
+}
+.list{
+	width: 100%;
+	margin: 0 auto;
+    background-color: #fff;
+    padding: 1.0625rem 0 0.3125rem;
+}
+.chmenu{
+	height: 3.625rem;
+    font-size: 0;
+    padding-top: 0.125rem;
+    margin: 0;
+}
+.chmenu>li{
+	margin: 0;
+    width: 25%;
+    height: 4.8125rem;
+    line-height: 0.9375rem;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    text-align: center;
+    color:#666;
+    float:left;
+}
+.chmenu>li>a>img{
+
+	width: 2.5rem;
+	text-align: center;
+	margin: 0 auto 0.3125rem auto;
+}
+/**
+ * 下面开始图片分类
+ */
+.fourbox{
+	height: 10.0625rem;
+    position: relative;
+    width: 100%;
+    margin-top: 0.125rem;
+}
+.q1{
+	width: 43%;
+    height: 9.5625rem;
+    left: 0;
+    top: 0;
+    border-right: 0px solid #ccc;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+.bourbox>a>img{
+	height:100%;
+}
+.q2{
+	width: 56.5%;
+    height: 4.0625rem;
+    top: 0;
+    right: 0;
+    border-bottom: 0px solid #ccc;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+.q3{
+	width: 28.5%;
+    height: 5.375rem;
+    top: 4.1875rem;
+    left: 43.5%;
+    border-right: 0px solid #ccc;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+.q4{
+	width: 27.5%;
+    height: 5.375rem;
+    top: 4.1875rem;
+    right: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    
+}
+.bottom{
+	width: 100%;
+    height: auto;
+}
+.main{
+	padding-bottom: 0.375rem;
+    border-bottom: 0px solid #f0f2f5;
+    text-align: center;
+}
+.main>span{
+	color: #ed2818;
+    font-size: 0.9375rem;
+    height: 0.625rem;
+    line-height: 0.625rem;
+    background-color: #f0f2f5;
+    border: 0;
+}
+.main-m{
+	background: #fff none repeat scroll 0 0;
+	height:1139.71.20625rem;
+}
+.main-m>ul>li{
+	text-align: center;
+    height: 100%;
+    width: 47%;
+    margin: 0 0.5% 2.1% 1.5%;
+    font-size: 11px;
+   	float:left;
+    overflow: hidden;
+    vertical-align: text-bottom;
+    background:#fff none repeat scroll 0 0;
+}
+ .main-m>ul>li>img{
+	height: 100%;
+	display: inline-block;
+} 
+.bm{
+	padding: 0;
+    height: 1.4375rem;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.4375rem;
+    width: 100%;
+    text-align: center;
+    color: #6E6E6E;
+    word-break: break-all;
+}
+.main-m>ul>li>p{
+ 	height: 1.625rem;
+    border-top: 0px solid #f0f2f5;
+    margin: 0 0.125rem;
+ }
+.bc{
+	text-align: center;
+    color: #C00;
+    display: block;
+    border-bottom:0.0625rem solid #f0f2f5;
+    height: 1.4375rem;
+    line-height:1.4375rem;
+}
+/*footer*/
+body>.footer{
+	margin: 0.4375rem 0 4.125rem 0;
+    background: #fff none repeat scroll 0 0;
+    font-size: 14px;
+    color: #6e6e6e;
+    text-align: center;
+    width:100%;
+	height:3.5625rem;
+}
+.abcc{
+	margin-left: 1.25rem;
+}
+.new-f>a{
+	font-size: 14px;
+	line-height: 0.9375rem;
+}
+.shangbiao{
+	padding-top: 0;
+    font-size: 0.75rem;
+    color: #6e6e6e;
+    padding: 0.625rem 0;
+    background: white;
+}
+.footermenu{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+.tablist{
+	font-size: 0;
+}
+.tablist>li{
+	background-position: center;
+    background-size: auto 65%;
+    background-color: rgb(228,0,79);
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+    height: 4.5625rem;
+}
+.p1{
+	background: url(http://static.wdmcake.cn/public/wap/images/menu1ov.png) no-repeat 50% 13%;
+    
+}
+.p2{
+	background:url(http://static.wdmcake.cn/public/wap/images/menu2ov.png) no-repeat 50% 13%;
+	
+}
+.p3{
+	background:url(http://static.wdmcake.cn/public/wap/images/menu3ov.png) no-repeat 50% 13%;
+}
+.p4{
+	background: url(http://static.wdmcake.cn/public/wap/images/menu4ov.png) no-repeat 50% 13%;
+}
+#top{
+	position: fixed;
+    bottom: 4.6875rem;
+    right: 0.0rem;
+    width: 2.625rem;
+    height: 2.625rem;
+    z-index: 10001;
+    display: block;
+}
